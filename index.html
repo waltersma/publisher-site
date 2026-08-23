@@ -9,32 +9,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            /* Matched directly to the logo image's cream background */
-            --bg: #f3f2ed;
-            --card-bg: #ffffff;
-            --text-dark: #121212;
-            --text-muted: #555555;
-            --border: #e2dfd5;
-            --accent-gold: #c59b27;
-            --btn-bg: #121212;
-            --btn-hover: #333333;
-        }
+:root {
+    --bg: #efece6; /* Base cream tone matching your logo */
+    --card-bg: #ffffff;
+    --text-dark: #121212;
+    --text-muted: #555555;
+    --border: #e2dfd5;
+    --accent-gold: #c59b27;
+    --btn-bg: #121212;
+    --btn-hover: #333333;
+}
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: var(--bg);
+    /* Multi-layered CSS radial gradient simulating paper grain and lighting vignette */
+    background-image: 
+        radial-gradient(circle at 50% 30%, rgba(245, 243, 237, 0.6) 0%, transparent 70%),
+        radial-gradient(circle at 20% 80%, rgba(232, 228, 219, 0.8) 0%, transparent 50%),
+        radial-gradient(circle at 80% 10%, rgba(232, 228, 219, 0.5) 0%, transparent 60%),
+        radial-gradient(circle at 50% 50%, rgba(18, 18, 18, 0.02) 0%, rgba(18, 18, 18, 0.06) 100%);
+    background-attachment: fixed;
+    color: var(--text-dark);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
-        body {
-            font-family: 'Inter', -apple-system, sans-serif;
-            background-color: var(--bg);
-            color: var(--text-dark);
-            line-height: 1.6;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
 
         header {
             text-align: center;
