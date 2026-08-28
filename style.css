@@ -1,14 +1,14 @@
         :root {
-            /* Matched directly to the logo image's cream background */
-            --bg: #f3f2ed;
-            --card-bg: #ffffff;
-            --text-dark: #121212;
-            --text-muted: #555555;
-            --border: #e2dfd5;
-            --accent-gold: #c59b27;
-            --btn-bg: #121212;
-            --btn-hover: #333333;
-        }
+    --bg-color: #0d0f12;
+    --card-bg: #161920;
+    --text-main: #e0e6ed;
+    --text-muted: #9ba4b0;
+    --accent-gold: #d4af37;
+    --accent-gold-hover: #f3ce5a;
+    --border-color: #2a2f3d;
+    --font-heading: 'Cinzel', serif;
+    --font-body: 'Fauna One', Georgia, serif;
+}
 
         * {
             box-sizing: border-box;
