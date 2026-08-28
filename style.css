@@ -174,13 +174,13 @@
         footer {
             text-align: center;
             padding: 40px 20px;
-            color: var(--text-muted);
+            color: var(--accent-gold);
             font-size: 0.85rem;
             margin-top: auto;
         }
 
         footer a {
-            color: var(--text-dark);
+            color: var(--accent-gold);
             text-decoration: none;
             font-weight: 600;
         }
