@@ -177,7 +177,7 @@ body {
     width: 100%;
     text-align: center; /* Centers the text horizontally */
     background: var(--btn-bg);
-    color: #ffffff;
+    color: var(--bg-color);
     font-weight: 700;
     font-size: 1.05rem;
     text-decoration: none;
