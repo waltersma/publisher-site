@@ -176,7 +176,7 @@ body {
     display: block; /* Ensures full-width alignment */
     width: 100%;
     text-align: center; /* Centers the text horizontally */
-    background: var(--btn-bg);
+    background: #ffffff;
     color: var(--bg-color);
     font-weight: 700;
     font-size: 1.05rem;
